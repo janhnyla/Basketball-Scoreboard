@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    background: #1B2440;
+    width: 50%;
+    margin: auto;
+}
+
+
+.score {
+    width: 155px;
+    height: 120px;
+    margin: auto;
+    background: #080001;
+    border-radius: 5px;
+}
+
+#heading {
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+    text-align: center;
+    color: #EEEEEE
+    }
+    
+ #leder {
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 36px;
+    text-align: center;
+    color: #EEEEEE
+    }   
+    
+#scoretall-home,
+#scoretall-guest {
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 127px;
+    text-align: center;
+    color: #F94F6D;
+}
+
+.poeng {
+    display: flex;
+    margin: 10px;
+    }
+
+.poeng div {
+    margin-right: 10px;
+}
+
+.pluss {
+    box-sizing: border-box;
+    width: 45px;
+    height: 45px;
+    left: 136px;
+    top: 271px;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #9AABD8;
+    background: #1B2440;
+}
+
+.new {
+    box-sizing: border-box;
+    width: 185px;
+    height: 45px;
+    left: 136px;
+    top: 271px;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #9AABD8;
+    background: #1B2440;
+    margin-bottom: 15px;
+}
